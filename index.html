@@ -1,0 +1,25 @@
+ <script>
+  //constructorres
+ let nombre = prompt('nombre')
+    let edad = prompt('edad')
+    let especie = prompt('especie')
+    let genero = prompt('genero')
+
+    let juguete1= prompt('juguete del animal')
+    let juguete2= prompt('juguete del animal ')
+
+    let juguetes = [juguete1, juguete2]
+
+
+    function Animal(nombre, edad, especie, genero, juguetes) {
+        this.nombre = nombre
+        this.edad = edad
+        this.especie = especie
+        this.genero = genero
+        this.juguetes = juguetes
+    }
+
+    let p1 = new Animal(nombre, edad, especie, genero, juguetes)
+    console.log(p1)
+    
+    </script>
